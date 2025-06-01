@@ -24,16 +24,12 @@
           [routerLink]="['/professores', prof.id]"></button>
         </td>
         <td>{{prof.nome}}</td>
-        <td>{{prof.status && 'Ativo' || 'Inativo'}}</td>
         <td>{{prof.cpf}}</td>
-        <td>{{prof.usucriacao | date : 'dd/MM/YYYY'}}</td>
+        <td>{{prof.status && 'Ativo' || 'Inativo'}}</td>
         <td>{{prof.datacriacao | date : 'dd/MM/YYYY'}}</td>
-        <td>{{prof.usualteracao | date : 'dd/MM/YYYY'}}</td>
+        <td>{{prof.usuariocriacao}}</td>
         <td>{{prof.dataalteracao | date : 'dd/MM/YYYY'}}</td>
-    
-
-       
-        
+        <td>{{prof.usuarioalteracao}}</td>
       </tr>
     </ng-template>
   </p-table>

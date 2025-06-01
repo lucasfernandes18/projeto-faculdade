@@ -25,6 +25,7 @@ export class ProfessorCadastroComponent implements OnInit {
     private title: Title,
     private spinner: NgxSpinnerService,
     private errorHandler: ErrorHandlerService
+   
   ) {}
 
   ngOnInit() {

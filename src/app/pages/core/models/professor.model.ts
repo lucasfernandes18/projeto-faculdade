@@ -3,9 +3,9 @@ export class Professor {
   nome?: string;
   status?: boolean;
   cpf?: string;
-  usucriacao?: Date;
+  usucriacao?: string;
   dataalteracao?: Date;
-  usualteracao?: Date;
+  usualteracao?: string;
   datacriacao?: Date;
  
 
